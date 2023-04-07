@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Amatic+SC&family=Gochi+Hand&family=Source+Code+Pro&family=VT323&family=Work+Sans:wght@300&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Gochi+Hand&family=Reenie+Beanie&display=swap');
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -38,9 +47,11 @@
 }
 
 h1{
-  color: aquamarine;
+  font-family: 'Gochi Hand', cursive;
+  color: rgb(29, 120, 117);
   text-align: center;
   text-decoration: dashed;
+
   
 }
 form{
@@ -51,8 +62,41 @@ form{
   text-align: center;
   width: 25%;
   border: none;
+  border-color: rgb(29, 120, 117);
   border-bottom: 2px solid #ccc;
   padding: 5px 0;
   background-color: transparent;
   outline: none;
+  /*font-family: 'Reenie Beanie', cursive;*/
+  font-family: 'Gochi Hand', cursive;
+
+  font-size: xx-large;
+
+
+}
+.tick{
+  width: 4px; 
+  height: 8px;
+}
+
+ul {
+  list-style-type:none;
+  font-family: 'Gochi Hand', cursive;
+  font-size: xx-large;
+
+}
+.checkbox{
+  border-radius: 50px;
+  margin-left: 35%;
+  width: 50px;
+}
+.checkbox.:hover{
+  color: red;
+}
+.tasklist{
+  
+}
+.addbutton{
+  width: 100px;
+  height: 100px;
 }

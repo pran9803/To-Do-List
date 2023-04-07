@@ -1,0 +1,12 @@
+{
+    "alltasks":[
+        {
+            "id":1,
+            "task":"Wash socks"
+        },
+        {
+            "id":2,
+            "task":"exercise"
+        }
+    ]
+}
