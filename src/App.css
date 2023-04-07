@@ -5,8 +5,18 @@
 
 
 
-
-
+body{
+  width:100%;
+  min-height:100vh;
+  background: linear-gradient(135deg,#157277,#95e9d5);  
+}
+.entirepage{
+  background-color: white;
+  max-width: 540px;
+  margin: 50px auto 20px;
+  padding:40px 30px 70px;
+  border-radius: 10px;
+}
 .App {
   text-align: center;
 }
@@ -48,7 +58,7 @@
 
 h1{
   font-family: 'Gochi Hand', cursive;
-  color: rgb(29, 120, 117);
+  color: rgb(7, 46, 45);
   text-align: center;
   text-decoration: dashed;
 
@@ -60,7 +70,8 @@ form{
 .inputtingtask{
   font-size: 20px;
   text-align: center;
-  width: 25%;
+  border-radius: 05px;
+  width: 35%;
   border: none;
   border-color: rgb(29, 120, 117);
   border-bottom: 2px solid #ccc;
@@ -86,8 +97,8 @@ ul {
 
 }
 .checkbox{
-  border-radius: 50px;
-  margin-left: 35%;
+  border-radius: 1px;
+  margin-left: 23%;
   width: 50px;
 }
 .checkbox.:hover{
@@ -96,7 +107,12 @@ ul {
 .tasklist{
   
 }
-.addbutton{
-  width: 100px;
-  height: 100px;
+button{
+ border:none;
+ outline: none;
+ padding:16px 50px;
+ border-radius: 30px;
+background-color: #95e9d5;
+font-family: 'Gochi Hand', cursive;
+  font-size: x-large;
 }

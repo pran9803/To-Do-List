@@ -58,7 +58,8 @@ function App() {
   const [alltask, setalltask]=useState([]);
   
   return (
-    <div >
+    <body>
+     <div className='entirepage'>
       <h1>To Do List</h1>
        <form>
         <input className ="inputtingtask" type='text' 
@@ -87,5 +88,6 @@ function App() {
        
        
     </div>
+    </body>
   );
 }
