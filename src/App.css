@@ -118,3 +118,7 @@ font-family: 'Gochi Hand', cursive;
 
   font-size: x-large;
 }
+button:hover{
+  background-color: #14dbca;
+ 
+}
